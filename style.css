@@ -1,0 +1,142 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.nTextColor{
+    font-family: 'Josefin Sans', sans-serif;
+    color: gold;
+}
+.NText{
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(2, 2, 2);
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(253, 253, 253);
+  overflow: hidden;
+  text-align: right;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #111111;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: gold;
+  color: white;
+}
+.Half-Width{
+    width: 44%;
+    float: left;
+    margin-left: 1%;
+    padding-left: 2%;
+    
+}
+.Half-Width img{
+    width: 70%;
+    height: 400px;
+}
+.Top-Banner{
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+}
+.LinkButton{
+    text-decoration: none;
+    background-image: linear-gradient(Lightyellow,gold);
+    background-color:gold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.Second-part{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.Single-Experiences{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+
+.card{
+    width: 28%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px rgb(78, 76, 76);
+    border-radius: 5px; 
+    margin: 2%;
+    text-align: center;
+    
+   }
+
+.image img{
+ width: 100%;
+ border-top-right-radius: 5px;
+ border-top-left-radius: 5px;
+ 
+
+
+}
+
+
+.LASTETWORKINGPROJECT{
+    text-align: center;
+}
+
+.EX-Area2{
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+   
+}
+#Full-Stack{
+    border-left: 7px solid;
+    border-left-color: goldenrod;
+}
+
+#Singleexp{
+    border-left: 7px solid;
+    border-image: linear-gradient(white,goldenrod);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+    font-size: 10px;
+}
+
+.Box{
+    background-color: gold;
+    background-repeat: no-repeat;
+    width: 95%;
+    float: left;
+    margin-left: 1%;
+    padding-left: 2%;
+text-align: center;
+   
+}
+.blank{
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+   
+}
